@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders+Display:wght@100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Young+Serif&display=swap');
+:root{
+    --Very-dark-desaturated-blue-main: hsl(222, 26%, 31%);
+    --Toggle-Keypad-Very-dark-desaturated-blue-: hsl(223, 31%, 20%);
+    --Very-dark-desaturated-blue-screen: hsl(224, 36%, 15%);
+    --Desaturated-dark-blue-key-background: hsl(225, 21%, 49%);
+    --Desaturated-dark-blue-key-shadow: hsl(224, 28%, 35%);
+
+    --Red-key-background-toggle: hsl(6, 63%, 50%);
+    --Dark-red-key-shadow: hsl(6, 70%, 34%);
+
+    --Light-grayish-orange-key-background: hsl(30, 25%, 89%);
+    --Grayish-orange-key-shadow: hsl(28, 16%, 65%);
+
+    --Very-dark-grayish-blue: hsl(221, 14%, 31%);
+    --White: hsl(0, 0%, 100%);
+
+    --Light-gray-main-background: hsl(0, 0%, 90%);
+    --Grayish-red-toggle-keypad-background: hsl(0, 5%, 81%);
+    --Very-light-gray-screen-background: hsl(0, 0%, 93%);
+
+    --Dark-moderate-cyan-key-background: hsl(185, 42%, 37%);
+    --Very-dark-cyan-key-shadow: hsl(185, 58%, 25%);
+
+    --Orang-key-background-toggle: hsl(25, 98%, 40%);
+    --Dark-orange-key-shadow: hsl(25, 99%, 27%);
+
+    --Light-grayish-yellow-key-background: hsl(45, 7%, 89%);
+    --Dark-grayish-orange-key-shadow: hsl(35, 11%, 61%);
+
+    --Very-dark-grayish-yellow: hsl(60, 10%, 19%);
+    --White-text: hsl(0, 0%, 100%);
+    --Very-dark-violet-main-background: hsl(268, 75%, 9%);
+    --Very-dark-violet-toggle-background-keypad-background-screen-background: hsl(268, 71%, 12%);
+
+
+    --Dark-violet-key-background: hsl(281, 89%, 26%);
+    --Vivid-magenta-key-shadow: hsl(285, 91%, 52%);
+
+    --Pure-cyan-key-background-toggle: hsl(176, 100%, 44%);
+    --Soft-cyan-key-shadow: hsl(177, 92%, 70%);
+
+    --Very-dark-violet-key-background: hsl(268, 47%, 21%);
+    --Dark-magenta-key-shadow: hsl(290, 70%, 36%);
+
+
+    --Light-yellow: hsl(52, 100%, 62%);
+    --Very-dark-blue: hsl(198, 20%, 13%);
+
+    --fs-numbers: 32px;
+
+    --ff: 'League Spartan', 'Segoe UI';
+
+}
+
+.theme1{
+    --key-color: var(--Light-grayish-yellow-key-background);
+    --key-shadow: var(--Grayish-orange-key-shadow);
+    --keypad-color: var(--Toggle-Keypad-Very-dark-desaturated-blue-);
+    --background-color: var(--Very-dark-desaturated-blue-main);
+    --input: var(--Very-dark-desaturated-blue-screen);
+    --font-color: var(--Very-dark-grayish-blue);
+    --special-keys-color: var(--Desaturated-dark-blue-key-background);
+    --special-keys-shadow: var(--Desaturated-dark-blue-key-shadow);
+    --equalbtn-key-color: var(--Red-key-background-toggle);
+    --equalbtn-key-shadow: var(--Dark-red-key-shadow);
+}
+
+.theme2{
+    --key-color: var(--Light-grayish-yellow-key-background);
+    --key-shadow: var(--Dark-grayish-orange-key-shadow);
+    --keypad-color: var(--Grayish-red-toggle-keypad-background);
+    --background-color: var(--Light-gray-main-background);
+    --input: var(--Very-light-gray-screen-background);
+    --font-color: var(--Very-dark-grayish-yellow);
+    --special-keys-color: var(--Dark-moderate-cyan-key-background);
+    --special-keys-shadow: var(--Very-dark-cyan-key-shadow);
+    --equalbtn-key-color: var(--Orang-key-background-toggle);
+    --equalbtn-key-shadow: var(--Dark-orange-key-shadow);
+}
+
+.theme3{
+    --key-color: var(--Very-dark-violet-key-background);
+    --key-shadow: var(--Dark-magenta-key-shadow);
+    --keypad-color: var(--Very-dark-violet-toggle-background-keypad-background-screen-background);
+    --background-color: var(--Very-dark-violet-main-background);
+    --input: var(--Very-dark-violet-toggle-background-keypad-background-screen-background);
+    --font-color: var(--Light-yellow);
+    --special-keys-color: var(--Dark-violet-key-background);
+    --special-keys-shadow: var(--Vivid-magenta-key-shadow);
+    --equalbtn-key-color: var(--Pure-cyan-key-background-toggle);
+    --equalbtn-key-shadow: var(--Soft-cyan-key-shadow);
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--background-color);
+}
+
+.theme1 .top{
+    --font-color: var(--White-text);
+}
+
+.mainContainer{
+    font-family: var(--ff);
+    max-width: 400px;
+    @media (max-width: 400px){
+        max-width: 350px;
+    }
+}
+
+.top{
+    color: var(--font-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.top button{
+    width: 1rem;
+    height: 1.5rem;
+    font-size: 10px;
+    box-shadow: none;
+    background-color: transparent;
+    color: var(--font-color);
+}
+
+
+.slider{
+    width: 100%;
+    background-color: var(--keypad-color);
+    height: 1.5rem;
+    border-radius: 2rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.theme2 .slider{
+    justify-content: center;
+}
+
+.theme3 .slider{
+    justify-content: flex-end;
+}
+
+.slider::after{
+    position: absolute;
+    content: '';
+    background-color: var(--equalbtn-key-color);
+    border-radius: 100%;
+    height: 1rem;
+    width: 1rem;
+}
+
+
+#display{
+    width: 90%;
+    height: 5rem;
+    background-color: var(--input);
+    border: transparent;
+    border-radius: .7rem;
+    color: var(--font-color);
+    text-align: right;
+    font-size: var(--fs-numbers);
+    padding: 1.2rem;
+    font-weight: 600;
+}
+
+#display::selection{
+    border: 1px solid transparent;
+}
+
+button{
+    width: 100%;
+    height: 3rem;
+    border-radius: 5px;
+    border: none;
+    font-size: var(--fs-numbers);
+    background-color: var(--key-color);
+    box-shadow: 0px 3px var(--key-shadow);
+    cursor: pointer;
+    color: var(--font-color);
+    font-weight: 700;
+}
+
+#keys{
+    padding: 2rem;
+    border-radius: .5rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, 2fr);
+    place-content: center;
+    background-color: var(--keypad-color);
+    margin-top: 2rem;
+}
+
+.bottomKeys{
+    grid-column: span 2;
+    width: 10.5rem;
+}
+
+.grey{
+    background-color: var(--special-keys-color);
+    box-shadow: 0px 5px var(--special-keys-shadow);
+    color: var(--White-text);
+    font-weight: 700;
+    font-size: 16px;
+}
+.equalBtn{
+    background-color: var(--equalbtn-key-color);
+    box-shadow: 0px 5px var(--equalbtn-key-shadow);
+    color: var(--White-text);
+    font-weight: 400;
+    font-weight: 700;
+    font-size: 16px;
+}
